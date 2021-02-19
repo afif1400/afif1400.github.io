@@ -1,0 +1,88 @@
+{
+  "main": {
+    "name": "Mohammed Afif Ahmed",
+    "occupation": "Fullstack Web Developer and open source contributor",
+    "description": "I like to learn new thing everyday.",
+    "image": "profilepic.jpg",
+    "bio": "Hi there! I am afif!",
+    "contactmessage": "Get in touch with me !",
+    "email": "afifahmed456123@gmail.com",
+    "phone": "+91 9741226080",
+    "address": {
+      "street": "123 Dev Lane",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": "560085"
+    },
+    "website": "https://www.afif.website",
+    "resumedownload": "http://afif.website",
+    "social": [
+
+      {
+        "name": "facebook",
+        "url": "",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/afif1400",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Skills that define me",
+    "education": [
+      {
+        "school": "PES University Bangalore - India",
+        "degree": "Bachelor's Degree, Computer Science",
+        "graduating": "July 2022"
+      }
+    ],
+    "work": [
+
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "100%"
+      },
+      {
+        "name": "NodeJs",
+        "level": "85%"
+      },
+      {
+        "name": "Git",
+        "level": "80%"
+      },
+      {
+        "name": "Docker",
+        "level": "75%"
+      },
+      {
+        "name": "Kubernetes",
+        "level": "70%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+
+    ]
+  }
+}
