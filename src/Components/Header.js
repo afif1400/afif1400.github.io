@@ -1,5 +1,5 @@
-import React from "react";
-import TypeWriter from "react-typewriter";
+import React from 'react';
+import TypeWriter from 'react-typewriter';
 
 const Header = ({ data }) => {
   if (data) {
@@ -19,33 +19,33 @@ const Header = ({ data }) => {
   }
 
   return (
-    <header id="home">
-      <nav id="nav-wrap">
-        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
+    <header id='home'>
+      <nav id='nav-wrap'>
+        <a className='mobile-btn' href='#nav-wrap' title='Show navigation'>
           Show navigation
         </a>
-        <a className="mobile-btn" href="#home" title="Hide navigation">
+        <a className='mobile-btn' href='#home' title='Hide navigation'>
           Hide navigation
         </a>
 
-        <ul id="nav" className="nav">
-          <li className="current">
-            <a className="smoothscroll" href="#home">
+        <ul id='nav' className='nav'>
+          <li className='current'>
+            <a className='smoothscroll' href='#home'>
               Home
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#about">
+            <a className='smoothscroll' href='#about'>
               About
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#resume">
+            <a className='smoothscroll' href='#resume'>
               Resume
             </a>
           </li>
           <li>
-            <a className="smoothscroll" href="#portfolio">
+            <a className='smoothscroll' href='#portfolio'>
               Works
             </a>
           </li>
@@ -55,29 +55,28 @@ const Header = ({ data }) => {
           {/*  </a>*/}
           {/*</li>*/}
           <li>
-            <a className="smoothscroll" href="#contact">
+            <a className='smoothscroll' href='#contact'>
               Contact
             </a>
           </li>
         </ul>
       </nav>
 
-      <div className="row banner">
-        <div className="banner-text">
-          <h1 className="responsive-headline">
+      <div className='row banner'>
+        <div className='banner-text'>
+          <h1 className='responsive-headline'>
             <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
           </h1>
           <h3>
             Based in {city}. <span>{occupation}</span>. {description}.
           </h3>
           <hr />
-          <ul className="social">{networks}</ul>
+          <ul className='social'>{networks}</ul>
         </div>
       </div>
-
-      <p className="scrolldown">
-        <a className="smoothscroll" href="#about">
-          <i className="icon-down-circle"></i>
+      <p className='scrolldown'>
+        <a className='smoothscroll' href='#about'>
+          <i className='icon-down-circle'></i>
         </a>
       </p>
     </header>

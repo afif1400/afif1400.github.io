@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 const About = ({ data }) => {
   if (data) {
     var name = data.name;
-    var profilepic = "images/" + data.image;
+    var profilepic = 'images/' + data.image;
     var bio = data.bio;
     var street = data.address.street;
     var city = data.address.city;
@@ -15,23 +15,23 @@ const About = ({ data }) => {
   }
 
   return (
-    <section id="about">
-      <div className="row">
-        <div className="three columns">
+    <section id='about'>
+      <div className='row'>
+        <div className='three columns'>
           <img
-            className="profile-pic"
+            className='profile-pic'
             src={profilepic}
-            alt="Sonny's Profile Pic"
+            alt="afif's Profile Pic"
           />
         </div>
-        <div className="nine columns main-col">
+        <div className='nine columns main-col'>
           <h2>About Me</h2>
 
           <p>{bio}</p>
-          <div className="row">
-            <div className="columns contact-details">
+          <div className='row'>
+            <div className='columns contact-details'>
               <h2>Contact Details</h2>
-              <p className="address">
+              <p className='address'>
                 <span>{name}</span>
                 <br />
                 <span>
@@ -45,10 +45,10 @@ const About = ({ data }) => {
                 <span>{email}</span>
               </p>
             </div>
-            <div className="columns download">
+            <div className='columns download'>
               <p>
-                <a href={resumeDownload} className="button">
-                  <i className="fa fa-download"></i>Download Resume
+                <a href={resumeDownload} className='button'>
+                  <i className='fa fa-download'></i>Download Resume
                 </a>
               </p>
             </div>
